@@ -1,6 +1,6 @@
 # 参考: https://github.com/snyk-labs/nodejs-goof/blob/f985f27f48b00b38c0d2d86f87280bee06fddb0c/.github/workflows/snyk-code.yml#L1
 name: "snyk code test"
-on: [push, pull_request]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
